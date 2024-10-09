@@ -1,0 +1,96 @@
+/* Sidebar container */
+.sidebar {
+  background: linear-gradient(to right, #353A5F, #6E8BCC);
+  width: 260px;
+  position: fixed;
+  height: 100%;
+  transition: all 0.5s;
+  overflow-y: auto;
+}
+
+/* Sidebar title section */
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+}
+
+/* Sidebar brand title */
+.sidebar-brand {
+  margin-top: 15px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff; /* White text color */
+}
+
+/* Close icon styling */
+.close_icon {
+  color: red;
+  cursor: pointer;
+}
+
+/* Sidebar list */
+.sidebar-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Align list items to the left */
+  width: 100%;
+}
+
+/* Style for list items */
+.sidebar-list-item {
+  padding: 20px;
+  font-size: 18px;
+  color: #fff; /* White text color */
+  text-align: left; /* Align text to the left */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0; /* Vertical spacing between items */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+/* Hover effect for list items */
+.sidebar-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly visible hover effect */
+  cursor: pointer;
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Link styling inside list items */
+.sidebar-list-item > a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  display: flex;
+  align-items: center; /* Align icons and text vertically */
+}
+
+/* Icon styling */
+.icon {
+  margin-right: 10px; /* Spacing between icon and text */
+}
+
+/* Responsive styling */
+.sidebar-responsive {
+  display: inline !important;
+  position: absolute;
+  z-index: 12 !important;
+}
+
+/* Responsive design for the sidebar */
+@media screen and (max-width: 992px) {
+  #sidebar {
+    display: none; /* Hide sidebar on smaller screens */
+  }
+
+  .sidebar-responsive {
+    display: inline !important;
+  }
+
+  .sidebar-title > span {
+    display: inline; /* Show close icon on smaller screens */
+  }
+}

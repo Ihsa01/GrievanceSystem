@@ -1,0 +1,68 @@
+/* src/Dashboard/EngineerDashboard.css */
+
+.dashboard {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the dashboard */
+}
+
+.dashboard-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark color for title */
+}
+
+.add-grievance-button {
+  background-color: #6E8BCC; /* Button color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-grievance-button:hover {
+  background-color: #5a7cbf; /* Darker shade on hover */
+}
+
+.grievances {
+  margin-top: 20px;
+}
+
+.grievance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grievance-table th,
+.grievance-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.grievance-table th {
+  background-color: #353A5F; /* Sidebar color */
+  color: white;
+}
+
+.grievance-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping for table */
+}
+
+.grievance-table tr:hover {
+  background-color: rgba(110, 139, 204, 0.2); /* Highlight row on hover */
+}
+
+/* src/EngineerDashboard.css */
+.dashboard-container {
+  display: flex; /* Use flexbox for layout */
+}
+
+.dashboard-content {
+  flex: 1; /* Take the remaining space */
+  padding: 20px; /* Add padding to the content */
+}
+
+/* Additional styles for the dashboard as needed */

@@ -1,0 +1,162 @@
+/* Container for the login form */
+.addUser {
+  /* Apply a gradient background */
+  background: linear-gradient(to right, #353A5F, #9EBAF3);
+  width: 45%;
+  margin: 120px auto; /* 50px top and bottom, auto left and right */
+  padding: 100px;
+  border-radius: 50px;
+  box-shadow: 4px 1px 8px rgba(0, 0, 0, 0.065);
+}
+
+/* Header styling */
+.addUser h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Form group styling */
+.addUserForm .inputGroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addUserForm .inputGroup label {
+  margin-top: 10px;
+}
+
+.addUserForm .inputGroup input {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button in the form */
+.inputGroup button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputGroup button:hover {
+  background-color: #0056b3;
+}
+
+/* Sign-up link styles */
+.login {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.login .btn.btn-success {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login .btn.btn-success:hover {
+  background-color: #218838;
+}
+
+/* User type selection */
+.userSelection {
+  text-align: center; /* Center-align the text and buttons */
+  margin-top: 50px;
+}
+
+.userSelection h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px; /* Space between the header and buttons */
+}
+
+/* Center and style the buttons */
+.userRoles {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center;     /* Center the buttons vertically */
+  margin-top: 20px;
+  gap: 20px;               /* Space between buttons */
+}
+
+/* Base button styles */
+.userRoles .btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #007bff, #00c6ff); /* Default gradient */
+  transition: background 0.3s ease; /* Smooth transition */
+}
+
+/* Specific button gradients */
+.userRoles .btn-admin {
+  background: linear-gradient( #020008, #20394C); /* Admin gradient */
+}
+
+.userRoles .btn-engineer {
+  background: linear-gradient( #1D719D, #63DAFC); /* Engineer gradient */
+}
+
+.userRoles .btn-customer {
+  background: linear-gradient( #AA895F, #E0D8CC); /* Customer gradient */
+}
+
+/* Hover effect for all buttons */
+.userRoles .btn:hover {
+  background: linear-gradient(45deg, #0056b3, #007bff); /* Hover gradient */
+}
+
+/* Popup styling */
+.popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+}
+
+.popup p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Home button styling */
+.btn-home {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.btn-home:hover {
+  background-color: #0056b3;
+}

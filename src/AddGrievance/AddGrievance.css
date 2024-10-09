@@ -1,0 +1,51 @@
+/* src/AddGrievance/AddGrievance.css */
+.add-grievance-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.add-grievance-container h1 {
+  margin-bottom: 20px;
+  color: #333; /* Dark grey text color */
+}
+
+.input-group {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 500px; /* Max width for readability */
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input, .input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-group textarea {
+  height: 100px; /* Adjust as needed */
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
